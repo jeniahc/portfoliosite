@@ -2,9 +2,71 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Jeniah Clarke</title>
+	<link href="main.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
+	<header>
+	<div class="header">
+  <a href="index.html">
+	  <h2>JENIAH CLARKE</h2>
+		</a>
+  <div class="header-right">
+	<div class="topnav" id="myTopnav">
+  <div class="dropdown">
+    <button class="dropbtn">Portfolio</button>
+    <div class="dropdown-content">
+      <a href="art.html">Art</a>
+      <a href="photography.html">Photography</a>
+      <a href="#">Filmography</a>
+    </div>
+	</div>
+	   <div class="dropdown">
+    <button class="dropbtn">Projects</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 	
+	<a href="blog.html">Blog</a>
+    <a href="about.html">Bio</a>
+	  <a href="javascript:void(0);" class="icon" style="font-size:25px;" onclick="myFunction()">&#9776;</a>
+	</div>
+		</div>
+	</div>
+	</header>
+	
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += "responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+	<div class="card">
+  <div class="column">
+    <img src="images/IMG_1319.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+	<img src="images/IMG_1317.jpg" alt="Photo" style="width:100%">
+  </div>
+  <div class="column">
+	<img src="images/IMG_1255.jpg" alt="Photo2" style="width:100%">
+	</div>
+	<div class="column">
+    <img src="images/IMG_1273.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/IMG_1234.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+	
 </body>
 </html>
