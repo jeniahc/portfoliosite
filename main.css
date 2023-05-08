@@ -4,20 +4,20 @@
 
 
 .header {
-  background-color: #FFA8B6;
+  background-color: #535252;
   margin:0px;
   padding: 100px;
   padding-bottom: 10px;
   padding-top:10px;
   text-align: center;
   font-style: normal;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
 
 .header a {
   float: left;
-  color: #707070;
+  color: #090909;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -26,11 +26,11 @@
 }
 
 .header a:hover {
-  color: #4E4E4E;
+  color: #CECECE;
 }
 
 .header a.active {
-  color: #4E4E4E;
+  color: #CECECE;
 }
 
 .header-right {
@@ -59,7 +59,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #707070;
+  color: #090909;
   text-align: center;
   padding-top: 70px;
   text-decoration: none;
@@ -68,7 +68,7 @@ body {
 }
 
 .active {
-  color: #4E4E4E;
+  color: #CECECE;
 }
 
 .topnav .icon {
@@ -84,9 +84,9 @@ body {
   font-size: 20px;    
   border: none;
   outline: none;
-  color: #707070;
+  color: #090909;
   padding-top: 70px;
-  background-color: #FFA8B6;
+  background-color: #535252;
   font-family: inherit;
   margin-right: 20px;
 }
@@ -111,7 +111,7 @@ body {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  color: #4E4E4E;
+  color: #CECECE;
 }
 
 .dropdown-content a:hover {
@@ -159,16 +159,7 @@ body {
   }
 }
 
-.column {
-	background-color:#FFE6E6;	
-}
 
-.card {
-	background-color:#FFE6E6;
-	padding-top: 50px;
-	margin-left:50px;
-	margin-right:50px;
-}
 
 * {
   box-sizing: border-box;
@@ -177,10 +168,20 @@ body {
 .column {
   float: left;
   width: 33.33%;
+  padding: 10px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column img {
+	margin-top: 12px;
+}
+
+.row:after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
